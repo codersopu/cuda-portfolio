@@ -1,0 +1,3 @@
+$(function(){$('.circlechart').circlechart()});var mixer=mixitup('.container');$(function(){$.scrollify({section:".scrolly",setHeights:!1,updateHash:!1,})});function openNav(){document.getElementById("myNab").style.width="100%"}
+function closeNav(){document.getElementById("myNab").style.width="0%"}
+$(function(){$('.main-nav a, .overlay-content a, .hero-tex-box a').on('click',function(){$('html, body').animate({scrollTop:$($.attr(this,'href')).offset().top},1000);return!1})})
